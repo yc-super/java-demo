@@ -1,6 +1,5 @@
-package zifuStream;
+package FileAndIO.zifuStream;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -10,7 +9,7 @@ import java.io.OutputStreamWriter;
 * */
 public class OutputStreamWriterDemo {
     public static void main(String[] args) throws IOException {
-        OutputStreamWriter osw=new OutputStreamWriter(new FileOutputStream("src\\FileDemo\\java.txt"));
+        OutputStreamWriter osw=new OutputStreamWriter(new FileOutputStream("src\\FileAndIO\\FileDemo\\java.txt"));
 //        osw.write(97);
 //        osw.write(98);
 //        osw.write(99);

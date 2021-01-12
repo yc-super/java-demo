@@ -1,6 +1,6 @@
-package zifuStream;
+package FileAndIO.zifuStream;
 
-import zifuStream.Entity.Student;
+import FileAndIO.zifuStream.Entity.Student;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 * */
 public class FileToArrayListDemo {
     public static void main(String[] args) throws IOException {
-        BufferedReader br=new BufferedReader(new FileReader("src\\FileDemo\\arrayFile.txt"));
+        BufferedReader br=new BufferedReader(new FileReader("src\\FileAndIO\\FileDemo\\arrayFile.txt"));
         ArrayList<Student> arrayList=new ArrayList<>();
         String line;
         while((line=br.readLine())!=null){

@@ -1,4 +1,4 @@
-package zifuStream.Entity;
+package FileAndIO.zifuStream.Entity;
 
 public class Student {
     private String id;

@@ -1,11 +1,11 @@
-package BufferedStream;
+package FileAndIO.BufferedStream;
 
 import java.io.*;
 
 public class BufferedStreamDemo01 {
     public static void main(String[] args) throws IOException {
-        BufferedReader br=new BufferedReader(new FileReader("copy.txt"));
-        BufferedWriter bw=new BufferedWriter(new FileWriter("java.txt"));
+        BufferedReader br=new BufferedReader(new FileReader("src\\FileAndIO\\FileDemo\\copy.txt"));
+        BufferedWriter bw=new BufferedWriter(new FileWriter("src\\FileAndIO\\FileDemo\\java.txt"));
 //        int ch;
 //        while((ch=br.read())!=-1){
 //            System.out.println((char)ch);

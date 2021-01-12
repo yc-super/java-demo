@@ -1,4 +1,4 @@
-package zifuStream;
+package FileAndIO.zifuStream;
 
 import java.io.*;
 /*
@@ -7,8 +7,8 @@ import java.io.*;
 * */
 public class CopyJavaDemo03 {
     public static void main(String[] args) throws IOException {
-        BufferedReader br=new BufferedReader(new FileReader("src\\FileDemo\\java.txt"));
-        BufferedWriter bw=new BufferedWriter(new FileWriter("src\\FileDemo\\java2.txt"));
+        BufferedReader br=new BufferedReader(new FileReader("src\\FileAndIO\\FileDemo\\java.txt"));
+        BufferedWriter bw=new BufferedWriter(new FileWriter("src\\FileAndIO\\FileDemo\\java2.txt"));
         String line;
         while((line=br.readLine())!=null){
             bw.write(line);

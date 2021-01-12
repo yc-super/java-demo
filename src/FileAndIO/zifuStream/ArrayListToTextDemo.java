@@ -1,4 +1,4 @@
-package zifuStream;
+package FileAndIO.zifuStream;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 * */
 public class ArrayListToTextDemo {
     public static void main(String[] args) throws IOException {
-        BufferedWriter bw=new BufferedWriter(new FileWriter("src\\FileDemo\\array.txt"));
+        BufferedWriter bw=new BufferedWriter(new FileWriter("src\\FileAndIO\\FileDemo\\array.txt"));
         ArrayList<String> array=new ArrayList<>();
         array.add("hello");
         array.add("world");

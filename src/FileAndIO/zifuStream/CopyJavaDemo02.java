@@ -1,4 +1,4 @@
-package zifuStream;
+package FileAndIO.zifuStream;
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -9,8 +9,8 @@ import java.io.IOException;
 * */
 public class CopyJavaDemo02 {
     public static void main(String[] args) throws IOException {
-        FileReader reader=new FileReader("src\\FileDemo\\java.txt");
-        FileWriter writer=new FileWriter("src\\FileDemo\\copy.txt");
+        FileReader reader=new FileReader("src\\FileAndIO\\FileDemo\\java.txt");
+        FileWriter writer=new FileWriter("src\\FileAndIO\\FileDemo\\copy.txt");
         //一次读写一个字符
 //        int ch;
 //        while((ch=reader.read())!=-1){

@@ -1,4 +1,4 @@
-package BufferStream;
+package FileAndIO.BufferStream;
 
 import java.io.*;
 /*
@@ -21,8 +21,8 @@ public class CopyAviDemo {
     }
     //字节流，一次读写一个字节
     private static void method1() throws IOException {
-        FileInputStream fis=new FileInputStream("video-demo.mp4");
-        FileOutputStream fos=new FileOutputStream("video-copy.mp4");
+        FileInputStream fis=new FileInputStream("src\\FileAndIO\\FileDemo\\video-demo.mp4");
+        FileOutputStream fos=new FileOutputStream("src\\FileAndIO\\FileDemo\\video-copy.mp4");
         int len;
         while((len=fis.read())!=-1){
             fos.write(len);
@@ -32,8 +32,8 @@ public class CopyAviDemo {
     }
     //字节流，一次读写一个数组
     private static void method2() throws IOException {
-        FileInputStream fis=new FileInputStream("video-demo.mp4");
-        FileOutputStream fos=new FileOutputStream("video-copy.mp4");
+        FileInputStream fis=new FileInputStream("src\\FileAndIO\\FileDemo\\video-demo.mp4");
+        FileOutputStream fos=new FileOutputStream("src\\FileAndIO\\FileDemo\\video-copy.mp4");
         byte[] bys=new byte[1024];
         int len;
         while((len=fis.read(bys))!=-1){
@@ -44,8 +44,8 @@ public class CopyAviDemo {
     }
     //字符缓冲流，一次读写一个字节
     private static void method3() throws IOException {
-        FileInputStream fis=new FileInputStream("video-demo.mp4");
-        FileOutputStream fos=new FileOutputStream("video-copy.mp4");
+        FileInputStream fis=new FileInputStream("src\\FileAndIO\\FileDemo\\video-demo.mp4");
+        FileOutputStream fos=new FileOutputStream("src\\FileAndIO\\FileDemo\\video-copy.mp4");
         BufferedInputStream bis=new BufferedInputStream(fis);
         BufferedOutputStream bos=new BufferedOutputStream(fos);
         int len;
@@ -57,8 +57,8 @@ public class CopyAviDemo {
     }
     //字节缓冲流，一次读写一个数组
     private static void method4() throws IOException {
-        BufferedInputStream bis=new BufferedInputStream(new FileInputStream("video-demo.mp4"));
-        BufferedOutputStream bos=new BufferedOutputStream(new FileOutputStream("video-copy.mp4"));
+        BufferedInputStream bis=new BufferedInputStream(new FileInputStream("src\\FileAndIO\\FileDemo\\video-demo.mp4"));
+        BufferedOutputStream bos=new BufferedOutputStream(new FileOutputStream("src\\FileAndIO\\FileDemo\\video-copy.mp4"));
         int len;
         byte[] bys=new byte[1024];
         while((len=bis.read(bys))!=-1){

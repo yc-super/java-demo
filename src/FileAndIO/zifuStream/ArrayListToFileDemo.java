@@ -1,6 +1,6 @@
-package zifuStream;
+package FileAndIO.zifuStream;
 
-import zifuStream.Entity.Student;
+import FileAndIO.zifuStream.Entity.Student;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 * */
 public class ArrayListToFileDemo {
     public static void main(String[] args) throws IOException {
-        BufferedWriter bw=new BufferedWriter(new FileWriter("src\\FileDemo\\arrayFile.txt"));
+        BufferedWriter bw=new BufferedWriter(new FileWriter("src\\FileAndIO\\FileDemo\\arrayFile.txt"));
         ArrayList<Student> arrayList=new ArrayList<>();
         arrayList.add(new Student("001","小明",13));
         arrayList.add(new Student("002","小红",14));
