@@ -6,8 +6,8 @@ import java.io.IOException;
 
 public class CopyJavaDemo02 {
     public static void main(String[] args) throws IOException {
-        FileReader reader=new FileReader("java.txt");
-        FileWriter writer=new FileWriter("copy.txt");
+        FileReader reader=new FileReader("src\\FileDemo\\java.txt");
+        FileWriter writer=new FileWriter("src\\FileDemo\\copy.txt");
         //一次读写一个字符
 //        int ch;
 //        while((ch=reader.read())!=-1){

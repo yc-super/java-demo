@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 
 public class InputStreamReaderDemo {
     public static void main(String[] args) throws IOException {
-        InputStreamReader isr=new InputStreamReader(new FileInputStream("java.txt"));
+        InputStreamReader isr=new InputStreamReader(new FileInputStream("src\\FileDemo\\java.txt"));
         //一次读一个字符
 //        int ch;
 //        while((ch=isr.read())!=-1){

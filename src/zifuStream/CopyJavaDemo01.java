@@ -4,8 +4,8 @@ import java.io.*;
 
 public class CopyJavaDemo01 {
     public static void main(String[] args) throws IOException {
-        InputStreamReader isr=new InputStreamReader(new FileInputStream("java.txt"));
-        OutputStreamWriter osw=new OutputStreamWriter(new FileOutputStream("copy.txt"));
+        InputStreamReader isr=new InputStreamReader(new FileInputStream("src\\FileDemo\\java.txt"));
+        OutputStreamWriter osw=new OutputStreamWriter(new FileOutputStream("src\\FileDemo\\copy.txt"));
 
         //一次读写一个字符
 //        int ch;
