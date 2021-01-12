@@ -4,7 +4,10 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+/*
+* 字符输入流练习
+*
+* */
 public class InputStreamReaderDemo {
     public static void main(String[] args) throws IOException {
         InputStreamReader isr=new InputStreamReader(new FileInputStream("src\\FileDemo\\java.txt"));

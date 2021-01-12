@@ -1,7 +1,10 @@
 package BufferStream;
 
 import java.io.*;
-
+/*
+* 比较字节流、字节缓冲流复制文件速度
+*
+* */
 public class CopyAviDemo {
     public static void main(String[] args) throws IOException {
         Long startTime=System.currentTimeMillis();

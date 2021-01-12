@@ -1,7 +1,10 @@
 package BufferStream;
 
 import java.io.*;
-
+/*
+* 字节缓冲流读写文件
+*
+* */
 public class BufferStreamDemo {
     public static void main(String[] args) throws IOException {
         BufferedOutputStream bos=new BufferedOutputStream(new FileOutputStream("java.txt"));

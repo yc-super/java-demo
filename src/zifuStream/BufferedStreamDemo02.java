@@ -1,7 +1,10 @@
 package zifuStream;
 
 import java.io.*;
-
+/*
+* 字符缓冲流读写文件
+*
+* */
 public class BufferedStreamDemo02 {
     public static void main(String[] args) throws IOException {
         BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(new FileOutputStream("src\\FileDemo\\java.txt",true)));

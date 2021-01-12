@@ -3,7 +3,10 @@ package zifuStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-
+/*
+* 利用改进版字符流复制文件
+*
+* */
 public class CopyJavaDemo02 {
     public static void main(String[] args) throws IOException {
         FileReader reader=new FileReader("src\\FileDemo\\java.txt");

@@ -1,7 +1,10 @@
 package zifuStream;
 
 import java.io.*;
-
+/*
+* 利用字符缓冲流复制文件
+*
+* */
 public class CopyJavaDemo03 {
     public static void main(String[] args) throws IOException {
         BufferedReader br=new BufferedReader(new FileReader("src\\FileDemo\\java.txt"));

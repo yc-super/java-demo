@@ -2,7 +2,10 @@ package zifuStream;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
-
+/*
+* 编码表
+*
+* */
 public class stringDemo {
     public static void main(String[] args) throws UnsupportedEncodingException {
         String s="中国";
