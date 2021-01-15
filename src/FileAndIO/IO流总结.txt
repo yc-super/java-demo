@@ -1,0 +1,18 @@
+字节流读数据
+FileInputStream fis=new FileInputStream("java.txt");
+
+字节缓冲流读数据
+BufferedInputStream bis=new BufferedInputStream(new FileInputStream("java.txt"));
+
+字符流
+InputStreamReader isr=new InputStreamReader(new FileInputStream("java.txt"));//使用默认字符集读数据
+InputStreamReader isr =new InputStreamReader(new FileInputStream("java.txt"),"utf-8");//使用特定的字符集读数据
+
+字符流改进版
+FileReader fr=new FileReader("java.txt");//相当于InputStreamReader isr=new InputStreamReader(new FileInputStream("java.txt"));
+//注意，以上改进版不能设置字符集，如若想要设置字符集，还得用之前的字符输入流
+
+字符缓冲流
+BufferedReader br=new BufferedReader(new FileReader("java.txt");
+BufferedReader br=new BufferedReader(new InputStreamReader(new FileInputStream("java.txt"),"utf-8"));
+
