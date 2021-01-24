@@ -1,0 +1,86 @@
+Java学习路线
+
+我的思路：总结别人总结的Java路线，把值得学习的放到下面，一个一个去学，学完了打个√，有漏的再加上。
+		记住：学习时一定要记笔记，一定要定期复习，哪怕只是看一遍就好。
+
+
+						勤能补拙是良训，一分辛苦一分才。
+
+
+1.Java基础
+	推荐书籍《Java核心卷1》
+		面向对象√
+		集合√         ------尽量按照java基础的视频再学一遍
+		异常√
+		IO等文件流√
+		线程与并发，推荐《Java 并发编程艺术》+《Java并发编程实战》
+		虚拟机,重点gc，推荐《深入理解Java虚拟机：JVM 高级特性与最佳实践》
+		网络编程
+		
+		反射
+		注解
+		泛型
+	
+2.Javaweb入门
+		mysql
+		html+css+js
+		servlet+jsp,jsp稍微了解下就行
+		
+3.框架
+	
+		spring
+		springmvc
+		mybatis
+		springboot
+		
+		
+		
+4.中间件
+	
+		redis,推荐《Redis 设计与实现》、《Redis开发与运维》
+		
+5.编程强化
+	
+		设计模式
+		数据结构算法
+		sql优化
+		git
+
+6.分布式
+	
+		springcloud
+		Dubbo
+		Zookeeper
+
+7.服务器中间件
+	
+		Kafka
+		MongoDB
+
+8.服务器技术
+
+		Linux系统
+
+9.容器技术
+	
+		Docker
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
