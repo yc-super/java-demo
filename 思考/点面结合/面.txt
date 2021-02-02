@@ -1,0 +1,60 @@
+
+        可以在平时看面经时，增加或删除下面的面知识：
+        打√表示已经系统学过一遍。
+
+1.Java基础
+	推荐书籍《Java核心卷1》
+		面向对象√
+		集合√         ------尽量按照java基础的视频再学一遍
+		异常√
+		IO等文件流√
+		线程与并发，推荐《Java 并发编程艺术》+《Java并发编程实战》√
+		虚拟机,重点gc，推荐《深入理解Java虚拟机：JVM 高级特性与最佳实践》
+		网络编程   339-354节
+
+		反射√
+		注解
+		泛型√
+
+2.Javaweb入门
+
+		servlet+jsp,jsp稍微了解下就行
+
+3.框架(主要是如何实现的)
+
+		spring
+		springmvc
+		mybatis
+		springboot
+
+
+
+4.中间件
+
+		redis,推荐《Redis 设计与实现》、《Redis开发与运维》
+
+5.编程强化
+
+		设计模式
+		数据结构算法
+		sql优化（重点）
+		git（低）
+
+6.分布式
+
+		springcloud
+		Dubbo
+		Zookeeper
+
+7.服务器中间件
+
+		Kafka
+		MongoDB
+
+8.服务器技术
+
+		Linux系统
+
+9.容器技术
+
+		Docker
