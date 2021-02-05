@@ -12,11 +12,13 @@
         进行中，买卖股票的最佳实际算法题：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
 
 2.3
-
+        1.学习面知识：网络编程
 2.4
-
+        1.学习 网络编程
+        2.买卖股票的最佳时机
 2.5
-
+        学习 网络编程
+        进行中，买卖股票的最佳时机  https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 2.6
 
 2.7
