@@ -20,11 +20,13 @@
         学习 网络编程
         进行中，买卖股票的最佳时机  https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 2.6
-
+        休息
 2.7
-
+        生病休息
 2.8
-
+        学习完剩下的 网络编程
+        解决：买卖股票的最佳时机2
+        3h
 2.9
 
 2.10
